@@ -1,5 +1,5 @@
-import shevle
-db = shevle.open('people-shevle')
+import shelve
+db = shelve.open('people-shevle')
 for key in db:
 	print(key, '=> \n', db[key])
 print(db['sue']['name'])
