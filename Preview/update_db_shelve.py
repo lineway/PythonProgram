@@ -1,7 +1,7 @@
 from initdata import tom
-import shevle
+import shelve
 
-db = shevle.open('people-shevle')
+db = shelve.open('people-shevle')
 sue = db['sue']
 
 sue['pay'] *= 1.10
